@@ -16,6 +16,8 @@ public class FuelTank {
   public void setActualFuel(int actualFuel) {
     if(actualFuel > 0){
       this.actualFuel = actualFuel;
+    }else{
+      System.out.println("EL nivel de combustible no puede ser menor a cero");
     }
   }
 }
